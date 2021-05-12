@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Work+Sans&display=swap");
+
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background: rgb(254, 247, 255);
+  background: linear-gradient(
+    170deg,
+    rgba(254, 247, 255, 0.9928774928774928) 0%,
+    rgba(200, 163, 200, 1) 75%,
+    rgba(85, 53, 85, 1) 100%
+  );
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #553555;
+  font-family: "Raleway Dots", cursive;
+}
+
+h1 {
+  text-decoration: overline;
+  margin-top: 50px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+img {
+  border: 3px dashed #774e24;
+  margin-top: 50px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+p {
+  padding: 10px 0;
+}
+
+.card {
+  background-color: #ffffffe1;
+  padding: 10px;
+  width: 70vw;
+  margin: 50px auto;
+  background: rgb(254, 247, 255);
+  background: linear-gradient(
+    280deg,
+    rgb(237, 156, 64) 0%,
+    rgba(200, 163, 200, 1) 50%,
+    rgba(128, 164, 237, 1) 100%
+  );
+}
+
+.shadow {
+  box-shadow: 2px 2px 10px #770045;
+}
+
+.rounded {
+  border-radius: 6px;
+}
+
+.button {
+  background-color: #553555;
+  display: block;
+  width: 60%;
+  color: white;
+  border-radius: 8px;
+  border: 5px dotted #ffffff7a;
+  padding: 3px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.button:hover {
+  transform: skew(2deg, 2deg);
+  color: #553555;
+  background-color: white;
+  border-radius: 8px;
+  border: 5px dashed #0000007a;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+ul li:hover {
+  transform: scale(2, 2);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
